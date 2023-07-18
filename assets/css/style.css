@@ -1,0 +1,114 @@
+.section {
+  display: flex;
+}
+
+/* Sidebar */
+
+.sidebar {
+  background-color: #000;
+  width: 150px;
+  transition: all 0.5s ease-in-out;
+}
+
+.sidebar .icon-bar {
+  color: #fff;
+  text-align: center;
+  display: none;
+  font-size: 18px;
+}
+
+.sidebar .listItem {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listItem li {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #5c5c5c;
+}
+.listItem li:hover {
+  background-color: #5c5c5c;
+}
+
+.listItem a {
+  color: #fff;
+  font-size: 16;
+  font-weight: 700;
+}
+
+/* End Sidebar */
+
+/* Content */
+
+.content {
+  flex: 1;
+  padding: 16px;
+}
+
+.content .logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  background: lightgray;
+}
+
+.content .group1 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  background-color: lightgray;
+  text-align: center;
+  padding: 38px 269px;
+}
+
+.group1 .title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.group1 .description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.merger {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 261px;
+  flex-wrap: wrap;
+}
+.merger .infor {
+  width: 30%;
+}
+
+.merger h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.merger p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.merger img {
+  float: left;
+  margin-right: 16px;
+}
+
+.footer {
+  padding: 24px 0;
+  border-top: 1px solid #dedede;
+}
+
+/* End Content */
