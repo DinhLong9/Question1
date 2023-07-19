@@ -26,8 +26,7 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .sidebar {
-    width: 10%;
-    position: relative;
+    width: 15%;
   }
   .sidebar .icon-bar {
     display: block;
@@ -38,10 +37,10 @@
 
   .sidebar .listItem {
     display: none;
-    position: absolute;
-    background-color: #ccc;
-    left: 40px;
-    top: 0;
-    box-shadow: 2px 2px #000;
+    width: 100%;
+  }
+  .listItem a {
+    font-size: 10px;
+    font-weight: 500;
   }
 }
