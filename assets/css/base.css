@@ -19,7 +19,7 @@ a {
   box-sizing: border-box;
 }
 .section .sidebar .active {
-  display: block;
+  display: flex;
 }
 
 /* // Large devices (desktops, less than 1200px) */

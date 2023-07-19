@@ -42,5 +42,6 @@
     background-color: #ccc;
     left: 40px;
     top: 0;
+    box-shadow: 2px 2px #000;
   }
 }
